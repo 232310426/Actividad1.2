@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- En el head se menciona tanto el lenguaje definido
+ el titulo de lapagina y el enlace de los estilos -->
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+
+<link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+
+<!-- 
+En el cuerpo se encuentran 2 clases, la del registro
+en la cual se ingresa el enlace de la imagen puesta, y el
+formulario del login -->
+
+<div class="panel">
+
+<div class="contenedor">
+
+<img src="img/inicio.jpg" class="imagen-top">
+
+<h2>Iniciar Sesión</h2>
+
+<form action="../backend/login.php" method="POST">
+
+<input type="text" name="username" placeholder="Usuario" required>
+
+<input type="password" name="password" placeholder="Contraseña" required>
+
+<button type="submit">Ingresar</button>
+
+</form>
+
+<br>
+
+<a href="register.html">Crear cuenta</a>
+
+</div>
+
+<!-- En la segunda clase se encuentra otro apartado
+ en el cual se ingresaron los datos del propietario -->
+
+<div class="info">
+
+<h2>Datos personales</h2>
+
+<p>
+Alumno(s):Claudia Monserrat Ramírez Díazㅤ
+ㅤㅤㅤㅤN° de Control: 232310426ㅤㅤㅤㅤㅤ
+Materia: Desarrollo de Aplicaciones Webㅤ
+Profesor: Jesús Salas Marin
+</p>
+
+<p>
+Actividad 1.2 Mini Proyecto 
+</p>
+
+</div>
+
+</div>
+
+</body>
+</html>

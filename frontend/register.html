@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+
+<!-- al igual que en otros codigos de HTML se especifica
+ idioma, caracteres especiales, el nombre de la página, y el
+ enlace de los estilos -->
+
+<title>Registro</title>
+
+<link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+
+<!-- Se crea un contenedor en el cual estará el formulario
+ para el registro del usuario o la "creacion de cuenta" 
+ incluyendo al final un enlace donde redirecciona al login -->
+    
+<div class="contenedor">
+
+<h2>Registro de Usuario</h2>
+
+<form action="../backend/register.php" method="POST">
+
+<input type="text" name="username" placeholder="Usuario" required>
+
+<input type="password" name="password" placeholder="Contraseña" required>
+
+<button type="submit">Registrarse</button>
+
+</form>
+
+<br>
+
+<a href="login.html">Volver al Login</a>
+
+</div>
+
+</body>
+</html>
